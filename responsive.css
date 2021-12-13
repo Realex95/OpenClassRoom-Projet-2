@@ -1,0 +1,411 @@
+@media screen and (max-width: 992px)
+{
+    main
+    {
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .ligneZero
+    {
+        width: 90%;
+    }
+
+    .ligneDeux
+    {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        margin: 0px auto;
+        justify-content: space-evenly;
+    }
+
+    .boxUn
+    {
+        width: 100%;
+        flex-wrap: nowrap;
+    }
+
+    .boxDeux
+    {
+        width: 100%;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .cartePopulaires
+    {
+        color: black;
+        width: 24.6%;
+        height: auto;
+        flex-direction: column;
+        padding: 5px;
+        margin: 20px;
+        background-color: white;
+        border-radius: 20px 20px 20px 20px;
+        overflow: hidden;
+        text-decoration: none;
+    }
+
+    .cartePopulaires img
+    {
+        width: 99%;
+        height: 110px;
+        object-fit: cover;
+        border-radius: 20px 20px 0px 0px;
+        -webkit-border-radius: 20px 20px 0px 0px;
+        -moz-border-radius: 20px 20px 0px 0px;
+        -ms-border-radius: 20px 20px 0px 0px;
+        -o-border-radius: 20px 20px 0px 0px;
+    }
+
+    .divImg,.divright
+    {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px)
+{
+    main
+    {
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .ligneDeux
+    {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        margin: 0px auto;
+        justify-content: space-evenly;
+    }
+
+    .boxUn
+    {
+        width: 100%;
+        flex-wrap: nowrap;
+    }
+
+    .boxDeux
+    {
+        width: 100%;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .cartePopulaires
+    {
+        color: black;
+        width: 24.6%;
+        height: auto;
+        flex-direction: column;
+        padding: 5px;
+        margin: 20px;
+        background-color: white;
+        border-radius: 20px 20px 20px 20px;
+        overflow: hidden;
+        text-decoration: none;
+    }
+
+    .cartePopulaires img
+    {
+        width: 99%;
+        height: 110px;
+        object-fit: cover;
+        border-radius: 20px 20px 0px 0px;
+        -webkit-border-radius: 20px 20px 0px 0px;
+        -moz-border-radius: 20px 20px 0px 0px;
+        -ms-border-radius: 20px 20px 0px 0px;
+        -o-border-radius: 20px 20px 0px 0px;
+    }
+
+    .carteFirst
+    {
+        width: 46%;
+        height: 390px;
+        margin-bottom: 40px;
+    }
+
+    .first img
+    {
+        width: 100%;
+        height: 87%;
+    }
+
+    .carteSecond
+    {
+        width: 46%;
+        height: 390px;
+    }
+
+    .carteFourth
+    {
+        width: 46%;
+    }
+}
+
+@media screen and (max-width: 768px)
+{
+    body
+    {
+        max-width: 768px;
+        width: 100%;
+        ;
+    }
+
+    .nav,.head
+    {
+        width: 100%;
+    }
+
+    .partie
+    {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    #hebergement
+    {
+        width: 110px;
+        height: 35px;
+        color: #0065FC;
+        border-top: none;
+        margin-right: 23px;
+    }
+
+    .element
+    {
+        width: 4rem;
+        height: 0.5rem;
+    }
+
+    .element img
+    {
+        margin-top: 3px;
+    }
+
+    .partie:nth-child(1)
+    {
+        display: flex;
+        justify-content: flex-start;
+        width: 100%;
+    }
+
+    .partie:nth-child(2)
+    {
+        width: 100%;
+        order: 3;
+        padding-top: 10%;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .partie:nth-child(3)
+    {
+        order: 2;
+    }
+
+    .head
+    {
+        width: 100%;
+        height: 150px;
+        flex-wrap: wrap;
+    }
+
+    .trait
+    {
+        width: 100%;
+        display: flex;
+        margin-top: -20px;
+    }
+
+    .trait-gauche
+    {
+        width: 49.5%;
+        border: 1px solid#0065FC;
+    }
+
+    .trait-droit
+    {
+        width: 49.5%;
+        margin-right: -20px;
+        border: 1px solid #F2F2F2;
+    }
+
+    .pFiltre
+    {
+        margin: 0px 0px;
+        line-height: 4px;
+        font-size: 1.3em;
+        font-weight: bolder;
+    }
+
+    .bold
+    {
+        margin-top: 40px;
+        margin-bottom: 15px;
+    }
+
+    #carte-2
+    {
+        margin: 30px 17px 0px 0px;
+    }
+
+    #carte-3
+    {
+        width: 100%;
+    }
+
+    .awesomeInfo
+    {
+        margin-top: 20px;
+    }
+
+    .awesomeInfoText
+    {
+        font-size: 1.3em;
+    }
+
+    .carte-1
+    {
+        margin-top: 15px;
+    }
+
+    #element-c
+    {
+        border-radius: 10px 10px 10px 10px;
+        -webkit-border-radius: 10px 10px 10px 10px;
+        -moz-border-radius: 10px 10px 10px 10px;
+        -ms-border-radius: 10px 10px 10px 10px;
+        -o-border-radius: 10px 10px 10px 10px;
+    }
+
+    #element-c i
+    {
+        display: flex;
+        justify-content: center;
+        width: 50px;
+        font-size: 16px;
+    }
+
+    .searchBookiTexte
+    {
+        display: none;
+    }
+
+    .boxUn
+    {
+        width: 100%;
+        background-color: white;
+    }
+
+    .boxDeux
+    {
+        width: 110%;
+        margin: 0px -22px;
+        border-radius: 0px 0px 0px 0px;
+    }
+
+    .carteHebergements
+    {
+        width: 100%;
+        margin: 0px 0px 20px 0px;
+    }
+
+    .cartePopulaires
+    {
+        width: 100%;
+    }
+
+    .ligneZero
+    {
+        width: 86%;
+    }
+
+    .cartePopulaires
+    {
+        flex-direction: row;
+    }
+
+    .cartePopulaires img
+    {
+        border-radius: 20px 0px 0px 20px;
+    }
+
+    .carteFirst,.carteSecond,.carteFourth
+    {
+        width: 100%;
+        height: auto;
+    }
+
+    .first,.secondOne,.secondTwo,.fourthOne,.fourthTwo
+    {
+        height: 180px;
+        margin-bottom: 20px;
+    }
+
+    .first img,.secondOne img,.secondTwo img,.fourthOne img,.fourthTwo img
+    {
+        height: 125px;
+    }
+
+    .boldMarseille
+    {
+        font-size: 14px;
+        font-weight: bold;
+        margin: auto 10px;
+        margin: 10px 0px 0px 10px;
+        color: black;
+    }
+
+    footer
+    {
+        width: 100%;
+        margin: 0px 0px;
+        background-color: #F2F2F2;
+        display: flex;
+        flex-direction: column;
+		align-content: flex-end;
+    }
+
+    .footer_assistance,.footer_hebergement,.footer_propos
+    {
+        display: flex;
+        flex-direction: column;
+        padding: 0px;
+        margin-left: 30px;
+    }
+
+    .pGauche
+    {
+        font-size: 18px;
+    }
+
+    .awesomeInfo
+    {
+        width: auto;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .titreTaille
+    {
+        margin-left: -15px;
+    }
+
+    .titreTaille_2
+    {
+        font-size: 20px;
+        margin-left: 0px;
+    }
+}
